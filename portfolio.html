@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | GrowOne Global Trade</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt="Logo" style="height: 50px;"></a>
+            <nav>
+                <ul class="nav-links" style="display: flex; gap: 30px;">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html" class="gold-text">Portfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="contact.html" class="btn btn-primary">Get Quote</a>
+        </div>
+    </header>
+
+    <section class="page-hero" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1521791136064-7986c2959d43?auto=format&fit=crop&q=80&w=2000'); background-size: cover; background-position: center; height: 400px;">
+        <div class="container">
+            <h1 style="color: #fff; font-size: 3.5rem;">Portfolio</h1>
+            <p style="color: #ddd;">Home / Our Work</p>
+        </div>
+    </section>
+
+    <section style="padding: 100px 0;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 40px;">
+                <div class="card" style="padding: 0; overflow: hidden;">
+                    <img src="https://images.unsplash.com/photo-1454165833762-010491e74b67?auto=format&fit=crop&q=80&w=800" alt="Work" style="width: 100%; height: 250px; object-fit: cover;">
+                    <div style="padding: 30px;">
+                        <h4 class="gold-text">Logistics</h4>
+                        <h3>Cross-Border Expansion</h3>
+                        <p>Streamlining supply chains for a tech giant entering the EU market.</p>
+                    </div>
+                </div>
+                <div class="card" style="padding: 0; overflow: hidden;">
+                    <img src="https://images.unsplash.com/photo-1566417713940-fe7c737a9ef2?auto=format&fit=crop&q=80&w=800" alt="Work" style="width: 100%; height: 250px; object-fit: cover;">
+                    <div style="padding: 30px;">
+                        <h4 class="gold-text">Sourcing</h4>
+                        <h3>Manufacturing Hub</h3>
+                        <p>Establishing reliable production partnerships in SE Asia for a US retailer.</p>
+                    </div>
+                </div>
+                <div class="card" style="padding: 0; overflow: hidden;">
+                    <img src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?auto=format&fit=crop&q=80&w=800" alt="Work" style="width: 100%; height: 250px; object-fit: cover;">
+                    <div style="padding: 30px;">
+                        <h4 class="gold-text">Trade</h4>
+                        <h3>Market Analysis</h3>
+                        <p>Strategic data-driven insights for a global commodities trader.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p style="text-align: center; color: #888;">&copy; 2026 GrowOne Global Trade. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

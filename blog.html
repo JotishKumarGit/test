@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | GrowOne Global Trade</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt="Logo" style="height: 50px;"></a>
+            <nav>
+                <ul class="nav-links" style="display: flex; gap: 30px;">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="blog.html" class="gold-text">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="contact.html" class="btn btn-primary">Get Quote</a>
+        </div>
+    </header>
+
+    <section class="page-hero" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&q=80&w=2000'); background-size: cover; background-position: center; height: 400px;">
+        <div class="container">
+            <h1 style="color: #fff; font-size: 3.5rem;">Insights</h1>
+            <p style="color: #ddd;">Home / Blog</p>
+        </div>
+    </section>
+
+    <section style="padding: 100px 0;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 50px;">
+                <div>
+                    <article class="card" style="padding: 0; margin-bottom: 50px; overflow: hidden;">
+                        <img src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?auto=format&fit=crop&q=80&w=1200" alt="Blog" style="width: 100%; height: 350px; object-fit: cover;">
+                        <div style="padding: 40px;">
+                            <h4 class="gold-text">March 2026</h4>
+                            <h2 style="margin: 15px 0;">The Evolution of B2B Logistics</h2>
+                            <p style="color: var(--text-muted);">Exploring how AI and data analytics are reshaping the global supply chain landscape.</p>
+                            <a href="#" class="btn btn-primary" style="margin-top: 25px;">Read More</a>
+                        </div>
+                    </article>
+                </div>
+                <aside>
+                    <div class="card" style="margin-bottom: 30px;">
+                        <h3>Search</h3>
+                        <input type="text" placeholder="Search..." style="width: 100%; padding: 10px; margin-top: 15px; border: 1px solid #ddd; border-radius: 4px;">
+                    </div>
+                    <div class="card">
+                        <h3>Categories</h3>
+                        <ul style="margin-top: 15px; color: var(--text-muted);">
+                            <li style="margin-bottom: 10px;">Logistics</li>
+                            <li style="margin-bottom: 10px;">Trading</li>
+                            <li>Sourcing</li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p style="text-align: center; color: #888;">&copy; 2026 GrowOne Global Trade. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
