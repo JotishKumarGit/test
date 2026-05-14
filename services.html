@@ -3,79 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services | GrowOne Global Trade</title>
+    <title>Our Services | Grow One Global Trade</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
-<body>
+<body class="bg-section">
 
-    <header class="header">
-        <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
-            <a href="index.html" class="logo"><img src="images/logo.png" alt="Logo" style="height: 50px;"></a>
-            <nav>
-                <ul class="nav-links" style="display: flex; gap: 30px;">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html" class="gold-text">Services</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <a href="contact.html" class="btn btn-primary">Get Quote</a>
-        </div>
-    </header>
-
-    <section class="page-hero" style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&q=80&w=2000'); background-size: cover; background-position: center; height: 400px;">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <h1 style="color: #fff; font-size: 3.5rem;">Our Services</h1>
-            <p style="color: #ddd;">Home / Services</p>
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <span class="gradient-text h4 mb-0 fw-bold">Grow One Global Trade</span>
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <a href="contact.html" class="btn btn-premium btn-primary-gradient ms-lg-4">Consult With Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="hero-section" style="padding: 140px 0 60px; background: #FFFFFF;">
+        <div class="container text-center">
+            <h1 class="hero-title reveal">Professional <span class="gradient-text">Services</span></h1>
+            <p class="hero-p mx-auto reveal">Grow One Global Trade provides end-to-end digital solutions designed to accelerate corporate growth and establish market authority.</p>
         </div>
     </section>
 
-    <section style="padding: 100px 0;">
+    <!-- Services Grid -->
+    <section class="py-5">
         <div class="container">
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
-                <div class="card">
-                    <i class="fas fa-ship gold-text" style="font-size: 2.5rem; margin-bottom: 20px;"></i>
-                    <h3>Ocean Freight</h3>
-                    <p>Global sea transport solutions for large-scale B2B shipments.</p>
+            <div class="row g-4">
+                
+                <!-- Service Card -->
+                <div class="col-lg-6 reveal">
+                    <div class="glass p-5 h-100 glass-hover">
+                        <div class="service-icon"><i data-lucide="bar-chart-2"></i></div>
+                        <h4>Complete Digital Marketing</h4>
+                        <p class="text-muted mb-4">A holistic approach to online visibility. We integrate multiple marketing channels—PPC, Social Media, and Email Marketing—into a unified strategy that drives measurable revenue and builds lasting brand awareness.</p>
+                        <a href="service-digital-marketing.html" class="btn btn-outline-premium">View Details</a>
+                    </div>
                 </div>
-                <div class="card">
-                    <i class="fas fa-plane gold-text" style="font-size: 2.5rem; margin-bottom: 20px;"></i>
-                    <h3>Air Freight</h3>
-                    <p>Fast and reliable air cargo services for time-critical deliveries.</p>
+
+                <!-- Service Card -->
+                <div class="col-lg-6 reveal">
+                    <div class="glass p-5 h-100 glass-hover">
+                        <div class="service-icon"><i data-lucide="code"></i></div>
+                        <h4>Enterprise Web Development</h4>
+                        <p class="text-muted mb-4">Your website is your digital headquarters. We engineer high-performance, secure, and scalable web platforms. Our development process prioritizes user experience, conversion optimization, and technical excellence.</p>
+                        <a href="service-web-development.html" class="btn btn-outline-premium">View Details</a>
+                    </div>
                 </div>
-                <div class="card">
-                    <i class="fas fa-truck gold-text" style="font-size: 2.5rem; margin-bottom: 20px;"></i>
-                    <h3>Road Logistics</h3>
-                    <p>Efficient inland transportation and distribution across borders.</p>
+
+                <!-- Service Card -->
+                <div class="col-lg-4 reveal">
+                    <div class="glass p-4 h-100 glass-hover">
+                        <div class="service-icon mb-3" style="width: 40px; height: 40px;"><i data-lucide="search" style="width: 20px;"></i></div>
+                        <h5>Search Engine Optimization</h5>
+                        <p class="small text-muted">Technical SEO and content authority strategies to dominate search engine results pages (SERPs).</p>
+                        <a href="service-seo.html" class="text-primary text-decoration-none fw-bold small mt-2 d-block">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
                 </div>
-                <div class="card">
-                    <i class="fas fa-search gold-text" style="font-size: 2.5rem; margin-bottom: 20px;"></i>
-                    <h3>B2B Sourcing</h3>
-                    <p>Identifying and vetting high-quality global manufacturers.</p>
+
+                <!-- Service Card -->
+                <div class="col-lg-4 reveal">
+                    <div class="glass p-4 h-100 glass-hover">
+                        <div class="service-icon mb-3" style="width: 40px; height: 40px;"><i data-lucide="smartphone" style="width: 20px;"></i></div>
+                        <h5>App Promotion</h5>
+                        <p class="small text-muted">Strategic marketing campaigns designed to increase application downloads, engagement, and retention rates.</p>
+                        <a href="service-digital-marketing.html" class="text-primary text-decoration-none fw-bold small mt-2 d-block">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
                 </div>
-                <div class="card">
-                    <i class="fas fa-file-invoice gold-text" style="font-size: 2.5rem; margin-bottom: 20px;"></i>
-                    <h3>Trade Compliance</h3>
-                    <p>Expert guidance on international customs and regulations.</p>
-                </div>
-                <div class="card">
-                    <i class="fas fa-warehouse gold-text" style="font-size: 2.5rem; margin-bottom: 20px;"></i>
-                    <h3>Warehousing</h3>
-                    <p>Secure storage and inventory management in key global hubs.</p>
+
+                <!-- Service Card -->
+                <div class="col-lg-4 reveal">
+                    <div class="glass p-4 h-100 glass-hover">
+                        <div class="service-icon mb-3" style="width: 40px; height: 40px;"><i data-lucide="edit-3" style="width: 20px;"></i></div>
+                        <h5>Content Strategy</h5>
+                        <p class="small text-muted">Professional copywriting, video production, and corporate communications that clearly articulate your value proposition.</p>
+                        <a href="service-digital-marketing.html" class="text-primary text-decoration-none fw-bold small mt-2 d-block">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
         <div class="container">
-            <p style="text-align: center; color: #888;">&copy; 2026 GrowOne Global Trade. All rights reserved.</p>
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <a href="index.html" class="footer-logo">Grow One Global Trade</a>
+                    <p class="text-muted small mb-4">A professional digital marketing and web development agency committed to global excellence and verifiable ROI.</p>
+                </div>
+                <div class="col-lg-2 col-6">
+                    <h5 class="fw-bold mb-4 text-white">Company</h5>
+                    <a href="about.html" class="footer-link">About Us</a>
+                    <a href="services.html" class="footer-link">Our Services</a>
+                    <a href="contact.html" class="footer-link">Contact</a>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <h5 class="fw-bold mb-4 text-white">Services</h5>
+                    <a href="service-digital-marketing.html" class="footer-link">Digital Marketing</a>
+                    <a href="service-seo.html" class="footer-link">Search Engine Optimization</a>
+                    <a href="service-web-development.html" class="footer-link">Web Development</a>
+                </div>
+                <div class="col-lg-3">
+                    <h5 class="fw-bold mb-4 text-white">Contact</h5>
+                    <p class="text-muted small mb-2"><i class="fas fa-envelope me-2"></i> info@growoneglobal.com</p>
+                    <p class="text-muted small"><i class="fas fa-phone me-2"></i> +1 (555) 123-4567</p>
+                </div>
+            </div>
+            <hr class="my-4 border-secondary opacity-25">
+            <div class="text-center text-muted small">
+                &copy; 2026 Grow One Global Trade. All rights reserved.
+            </div>
         </div>
     </footer>
 
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

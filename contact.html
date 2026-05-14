@@ -3,111 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us | GrowOne Global Trade</title>
+    <title>Contact Us | Grow One Global Trade</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
-<body>
+<body class="bg-section">
 
-    <header class="header">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <a href="index.html" class="logo">
-                <img src="images/logo.png" alt="GrowOne Logo" style="height: 45px;">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <span class="gradient-text h4 mb-0 fw-bold">Grow One Global Trade</span>
             </a>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="digital-marketing.html">Digital Marketing</a></li>
-                    <li><a href="b2b-solutions.html">B2B Solutions</a></li>
-                    <li><a href="website-designing.html">Website Designing</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html" class="active">Contact</a></li>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
                 </ul>
-            </nav>
-            <a href="contact.html" class="btn btn-gold">
-                <i class="fas fa-rocket"></i> GET STARTED
-            </a>
-        </div>
-    </header>
-
-    <main>
-        <section class="hero" style="padding: 100px 0 60px;">
-            <div class="container" style="text-align: center;">
-                <h1 class="animate">Get In <span class="gold-span">Touch</span></h1>
-                <p class="animate" style="color: var(--text-muted); max-width: 700px; margin: 20px auto 40px;">Have questions about our global B2B solutions? We're here to help you scale your business. Reach out to our experts today.</p>
+                <a href="contact.html" class="btn btn-premium btn-primary-gradient ms-lg-4">Consult With Us</a>
             </div>
-        </section>
+        </div>
+    </nav>
 
-        <section class="contact">
-            <div class="container">
-                <div class="contact-grid">
-                    <div class="contact-info animate">
-                        <h2>Contact Details</h2>
-                        <p style="color: var(--text-muted); margin-bottom: 40px;">Find us at our global headquarters or reach out via phone/email for immediate assistance.</p>
-                        
-                        <div class="info-item">
-                            <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+    <section class="hero-section" style="padding: 140px 0 80px; background: #FFFFFF;">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 reveal">
+                    <h1 class="hero-title">Contact <span class="gradient-text">Our Experts</span></h1>
+                    <p class="hero-p">Engage with Grow One Global Trade to discover how our tailored digital solutions can align with your corporate objectives. Our consultants respond within one business day.</p>
+                    
+                    <div class="mt-5">
+                        <div class="d-flex align-items-center gap-4 mb-4 p-3 bg-section rounded border">
+                            <div class="text-primary fs-3"><i class="fas fa-envelope"></i></div>
                             <div>
-                                <h4>Global HQ</h4>
-                                <p style="color: var(--text-muted);">Trade Center, Suite 500, New York, NY</p>
+                                <h6 class="fw-bold mb-0">Corporate Email</h6>
+                                <p class="text-muted mb-0">info@growoneglobal.com</p>
                             </div>
                         </div>
-                        <div class="info-item">
-                            <div class="info-icon"><i class="fas fa-phone"></i></div>
+                        <div class="d-flex align-items-center gap-4 mb-4 p-3 bg-section rounded border">
+                            <div class="text-primary fs-3"><i class="fas fa-phone"></i></div>
                             <div>
-                                <h4>Phone Support</h4>
-                                <p style="color: var(--text-muted);">+1 (555) 012-3456</p>
+                                <h6 class="fw-bold mb-0">Direct Line</h6>
+                                <p class="text-muted mb-0">+1 (555) 123-4567</p>
                             </div>
                         </div>
-                        <div class="info-item">
-                            <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="d-flex align-items-center gap-4 p-3 bg-section rounded border">
+                            <div class="text-primary fs-3"><i class="fas fa-map-marker-alt"></i></div>
                             <div>
-                                <h4>Inquiries</h4>
-                                <p style="color: var(--text-muted);">hello@growoneglobal.com</p>
+                                <h6 class="fw-bold mb-0">Headquarters</h6>
+                                <p class="text-muted mb-0">Financial District, New York, NY</p>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="contact-form animate">
-                        <form id="mainContactForm">
-                            <div class="form-group">
-                                <input type="text" class="form-input" placeholder="First Name" required>
-                                <input type="text" class="form-input" placeholder="Last Name" required>
+                <div class="col-lg-7 reveal">
+                    <div class="glass p-5 bg-white">
+                        <h4 class="fw-bold mb-4">Request a Proposal</h4>
+                        <form id="homeContactForm">
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <label class="form-label text-main fw-bold small">Full Name <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control p-3 bg-section border" placeholder="John Doe" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label text-main fw-bold small">Corporate Email <span class="text-danger">*</span></label>
+                                    <input type="email" class="form-control p-3 bg-section border" placeholder="john@company.com" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label text-main fw-bold small">Company Name</label>
+                                    <input type="text" class="form-control p-3 bg-section border" placeholder="Your Organization">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label text-main fw-bold small">Primary Interest</label>
+                                    <select class="form-select p-3 bg-section border text-main">
+                                        <option value="dm">Comprehensive Digital Marketing</option>
+                                        <option value="seo">Search Engine Optimization</option>
+                                        <option value="wd">Website Designing & Development</option>
+                                        <option value="app">App Promotion</option>
+                                        <option value="other">Other Inquiry</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label text-main fw-bold small">Project Requirements</label>
+                                    <textarea class="form-control p-3 bg-section border" rows="5" placeholder="Please outline your objectives and current challenges..."></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-premium btn-primary-gradient w-100 p-3 mt-2">Submit Inquiry</button>
+                                </div>
                             </div>
-                            <div class="form-group">
-                                <input type="email" class="form-input" placeholder="Work Email" required>
-                                <input type="text" class="form-input" placeholder="Company Name">
-                            </div>
-                            <input type="text" class="form-input" style="margin-bottom: 20px;" placeholder="Subject">
-                            <textarea class="form-textarea" placeholder="Describe your business needs..." required></textarea>
-                            <button type="submit" class="btn btn-gold" style="width: 100%;">SEND MESSAGE <i class="fas fa-paper-plane"></i></button>
                         </form>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Map Placeholder -->
-        <section style="height: 400px; background: #0A1629; position: relative; overflow: hidden;">
-            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.3; background: url('https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=2000') center/cover;"></div>
-            <div class="container" style="position: relative; height: 100%; display: flex; align-items: center; justify-content: center;">
-                <div style="background: rgba(5, 10, 24, 0.9); padding: 30px; border-radius: 15px; border: 1px solid var(--primary-gold); text-align: center;">
-                    <i class="fas fa-map-marked-alt" style="font-size: 3rem; color: var(--primary-gold); margin-bottom: 20px;"></i>
-                    <h3>Interactive Map Coming Soon</h3>
-                    <p style="color: var(--text-muted);">Visit our office at the Trade Center complex.</p>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <a href="index.html" class="footer-logo">Grow One Global Trade</a>
+                    <p class="text-muted small mb-4">A professional digital marketing and web development agency committed to global excellence and verifiable ROI.</p>
+                </div>
+                <div class="col-lg-2 col-6">
+                    <h5 class="fw-bold mb-4 text-white">Company</h5>
+                    <a href="about.html" class="footer-link">About Us</a>
+                    <a href="services.html" class="footer-link">Our Services</a>
+                    <a href="contact.html" class="footer-link">Contact</a>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <h5 class="fw-bold mb-4 text-white">Services</h5>
+                    <a href="service-digital-marketing.html" class="footer-link">Digital Marketing</a>
+                    <a href="service-seo.html" class="footer-link">Search Engine Optimization</a>
+                    <a href="service-web-development.html" class="footer-link">Web Development</a>
+                </div>
+                <div class="col-lg-3">
+                    <h5 class="fw-bold mb-4 text-white">Contact</h5>
+                    <p class="text-muted small mb-2"><i class="fas fa-envelope me-2"></i> info@growoneglobal.com</p>
+                    <p class="text-muted small"><i class="fas fa-phone me-2"></i> +1 (555) 123-4567</p>
                 </div>
             </div>
-        </section>
-    </main>
-
-    <footer class="main-footer">
-        <div class="container">
-            <div class="footer-bottom">
-                <p>&copy; 2026 GrowOne Global Trade. All rights reserved.</p>
+            <hr class="my-4 border-secondary opacity-25">
+            <div class="text-center text-muted small">
+                &copy; 2026 Grow One Global Trade. All rights reserved.
             </div>
         </div>
     </footer>
 
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

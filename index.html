@@ -3,355 +3,291 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GrowYourBusiness Globally | GrowOne Global Trade</title>
+    <title>Grow One Global Trade | Professional Digital Marketing Agency</title>
+    <meta name="description" content="Grow One Global Trade offers comprehensive digital marketing and web development services to elevate your brand globally.">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
 
-    <header class="header">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <a href="index.html" class="logo">
-                <img src="images/logo.png" alt="GrowOne Logo" style="height: 45px;">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <span class="gradient-text h4 mb-0 fw-bold">Grow One Global Trade</span>
             </a>
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="digital-marketing.html">Digital Marketing</a></li>
-                    <li><a href="b2b-solutions.html">B2B Solutions</a></li>
-                    <li><a href="website-designing.html">Website Designing</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
-            </nav>
-            <a href="contact.html" class="btn btn-gold">
-                <i class="fas fa-rocket"></i> GET STARTED
-            </a>
+                <a href="contact.html" class="btn btn-premium btn-primary-gradient ms-lg-4">Consult With Us</a>
+            </div>
         </div>
-    </header>
+    </nav>
 
-    <main>
-        <section class="hero">
-            <div class="container">
-                <div class="badge animate">
-                    <i class="fas fa-dot-circle" style="font-size: 0.6rem;"></i> Trusted by 500+ Global Businesses
-                </div>
-                <h1 class="animate">
-                    Grow Your Business <br>
-                    <span class="gold-span">Globally</span>
-                </h1>
-                <p class="animate">Digital Marketing & B2B Growth Solutions</p>
-                <div class="hero-btns animate">
-                    <a href="contact.html" class="btn btn-gold">
-                        <i class="fas fa-rocket"></i> START YOUR PROJECT
-                    </a>
-                    <a href="services.html" class="btn btn-outline">
-                        <i class="fas fa-play-circle"></i> EXPLORE SERVICES
-                    </a>
-                </div>
-
-                <div class="stats animate">
-                    <div class="stats-grid">
-                        <div class="stat-item">
-                            <h2>500+</h2>
-                            <p>Clients Served</p>
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mx-auto text-center">
+                    <div class="badge bg-dark glass border-1 border-secondary mb-4 p-2 px-3 reveal">
+                        <span class="text-secondary fw-bold">Premier Digital Marketing & Web Solutions</span>
+                    </div>
+                    <h1 class="hero-title reveal">
+                        Accelerate Your Business with <br>
+                        <span class="gradient-text">Grow One Global Trade</span>
+                    </h1>
+                    <p class="hero-p mx-auto reveal">
+                        We deliver data-driven digital marketing and enterprise-grade web development services designed to maximize your ROI and expand your global reach.
+                    </p>
+                    <div class="d-flex gap-3 justify-content-center reveal">
+                        <a href="contact.html" class="btn btn-premium btn-primary-gradient">Get a Proposal</a>
+                        <a href="services.html" class="btn btn-premium btn-outline-premium">Explore Services</a>
+                    </div>
+                    
+                    <div class="mt-5 pt-4 border-top border-secondary d-flex justify-content-center gap-5 reveal">
+                        <div>
+                            <h3 class="mb-0">10+</h3>
+                            <p class="text-muted small">Years Experience</p>
                         </div>
-                        <div class="stat-item">
-                            <h2>98%</h2>
-                            <p>Success Rate</p>
+                        <div>
+                            <h3 class="mb-0">98%</h3>
+                            <p class="text-muted small">Client Retention</p>
                         </div>
-                        <div class="stat-item">
-                            <h2>50+</h2>
-                            <p>Countries</p>
-                        </div>
-                        <div class="stat-item">
-                            <h2>10yrs</h2>
-                            <p>Experience</p>
+                        <div>
+                            <h3 class="mb-0">500+</h3>
+                            <p class="text-muted small">Projects Delivered</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Offers Section -->
-        <section class="offers">
-            <div class="container">
-                <div class="offers-title animate">
-                    <h2>What We Offer</h2>
-                    <p>Comprehensive digital solutions designed to accelerate your business growth in the global marketplace</p>
+    <!-- Comprehensive Services Overview -->
+    <section class="py-5 bg-white" id="services">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-subtitle">Our Expertise</span>
+                <h2 class="section-title">Comprehensive Digital Solutions</h2>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4 reveal">
+                    <div class="glass glass-hover service-card">
+                        <div class="service-icon"><i data-lucide="search"></i></div>
+                        <h4>Search Engine Optimization</h4>
+                        <p class="text-muted small">Enhance your visibility on Google. We optimize your website architecture, content, and backlinks to secure top rankings.</p>
+                        <a href="service-seo.html" class="text-primary text-decoration-none fw-bold small">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
                 </div>
-                <div class="offers-grid">
-                    <!-- Digital Marketing -->
-                    <div class="offer-card animate">
-                        <div class="icon-box">
-                            <i class="fas fa-bullhorn"></i>
-                        </div>
-                        <h3>Digital Marketing</h3>
-                        <p>SEO, PPC, social media, and content marketing strategies to boost your online presence and drive qualified leads.</p>
-                        <a href="digital-marketing.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                <div class="col-md-4 reveal">
+                    <div class="glass glass-hover service-card">
+                        <div class="service-icon"><i data-lucide="mouse-pointer-click"></i></div>
+                        <h4>Pay-Per-Click (PPC)</h4>
+                        <p class="text-muted small">Targeted advertising campaigns on Google Ads and Bing to drive high-intent traffic and immediate conversions.</p>
+                        <a href="service-digital-marketing.html" class="text-primary text-decoration-none fw-bold small">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
                     </div>
-
-                    <!-- App Promotion -->
-                    <div class="offer-card animate">
-                        <div class="icon-box">
-                            <i class="fas fa-mobile-alt"></i>
-                        </div>
-                        <h3>App Promotion</h3>
-                        <p>Strategic app marketing campaigns across platforms to maximize downloads, engagement, and user retention.</p>
-                        <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="col-md-4 reveal">
+                    <div class="glass glass-hover service-card">
+                        <div class="service-icon"><i data-lucide="share-2"></i></div>
+                        <h4>Social Media Marketing</h4>
+                        <p class="text-muted small">Engaging brand management across Facebook, Instagram, LinkedIn, and Twitter to build community and loyalty.</p>
+                        <a href="service-digital-marketing.html" class="text-primary text-decoration-none fw-bold small">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
                     </div>
-
-                    <!-- B2B Lead Generation -->
-                    <div class="offer-card animate">
-                        <div class="icon-box">
-                            <i class="fas fa-handshake"></i>
-                        </div>
-                        <h3>B2B Lead Generation</h3>
-                        <p>Targeted B2B outreach, pipeline building, and partnership development to fuel sustainable business growth.</p>
-                        <a href="b2b-solutions.html" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="col-md-4 reveal">
+                    <div class="glass glass-hover service-card">
+                        <div class="service-icon"><i data-lucide="layout-template"></i></div>
+                        <h4>Website Designing</h4>
+                        <p class="text-muted small">Corporate, eCommerce, and bespoke web solutions tailored to reflect your brand's professionalism and scale.</p>
+                        <a href="service-web-development.html" class="text-primary text-decoration-none fw-bold small">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
                     </div>
-
-                    <!-- Brand Strategy -->
-                    <div class="offer-card animate">
-                        <div class="icon-box">
-                            <i class="fas fa-pen-nib"></i>
-                        </div>
-                        <h3>Brand Strategy</h3>
-                        <p>Complete brand identity development and positioning to make your business stand out in the competitive global market.</p>
-                        <a href="#" class="learn-more">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="col-md-4 reveal">
+                    <div class="glass glass-hover service-card">
+                        <div class="service-icon"><i data-lucide="smartphone"></i></div>
+                        <h4>App Promotion</h4>
+                        <p class="text-muted small">Strategic mobile marketing to increase app downloads, improve store rankings (ASO), and boost user retention.</p>
+                        <a href="service-digital-marketing.html" class="text-primary text-decoration-none fw-bold small">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal">
+                    <div class="glass glass-hover service-card">
+                        <div class="service-icon"><i data-lucide="pen-tool"></i></div>
+                        <h4>Content Marketing</h4>
+                        <p class="text-muted small">Authoritative blog posts, whitepapers, and video scripts that establish your brand as an industry thought leader.</p>
+                        <a href="service-digital-marketing.html" class="text-primary text-decoration-none fw-bold small">Learn More <i class="fas fa-arrow-right ms-1"></i></a>
                     </div>
                 </div>
             </div>
-        <!-- Results Section -->
-        <section class="results">
-            <div class="container">
-                <div class="results-title animate">
-                    <h2>Driving Results That Matter</h2>
-                    <p style="color: var(--text-muted); max-width: 800px; margin: 0 auto;">For more than two decades, we have combined innovation, expertise, and passionate leadership to deliver results that truly make a difference. Our efforts empower businesses and individuals alike.</p>
-                </div>
-                <div class="results-grid">
-                    <!-- Row 1 -->
-                    <div class="result-card animate">
-                        <i class="fas fa-certificate"></i>
-                        <h4>Quality Driven Approach</h4>
-                    </div>
-                    <div class="result-card animate">
-                        <i class="fas fa-users-cog"></i>
-                        <h4>Transparent Work Culture</h4>
-                    </div>
-                    <div class="result-card animate">
-                        <i class="fas fa-headset"></i>
-                        <h4>High Standards For Customer Service</h4>
-                    </div>
-                    <div class="result-card animate">
-                        <i class="fas fa-heart"></i>
-                        <h4>Passion For Perfection</h4>
-                    </div>
-                    <!-- Row 2 -->
-                    <div class="result-card animate">
-                        <i class="fas fa-lightbulb"></i>
-                        <h4>Innovative Thinking</h4>
-                    </div>
-                    <div class="result-card animate">
-                        <i class="fas fa-puzzle-piece"></i>
-                        <h4>Problem Solving Skills</h4>
-                    </div>
-                    <div class="result-card animate">
-                        <i class="fas fa-shipping-fast"></i>
-                        <h4>Commitment to Timely Delivery</h4>
-                    </div>
-                    <div class="result-card animate">
-                        <i class="fas fa-hand-holding-heart"></i>
-                        <h4>Focus on Long Term Relationships</h4>
-                    </div>
-                </div>
-            </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Industries Section -->
-        <section class="industries">
-            <div class="container">
-                <div class="industry-text animate">
-                    <h2>Empowering Industries Through Technology, Innovation, and Expertise</h2>
-                    <p>Our expertise spans multiple sectors, providing smart solutions that drive growth and efficiency. From startups to established businesses, we make an impact everywhere.</p>
-                    <a href="contact.html" class="btn btn-gold">Get a Quote <i class="fas fa-arrow-right"></i></a>
-                </div>
-                <div class="industry-grid animate">
-                    <div class="industry-card">
-                        <i class="fas fa-home"></i>
-                        <h4>Real Estate</h4>
-                    </div>
-                    <div class="industry-card">
-                        <i class="fas fa-heart"></i>
-                        <h4>Matrimonial</h4>
-                    </div>
-                    <div class="industry-card">
-                        <i class="fas fa-globe"></i>
-                        <h4>B2B/B2C</h4>
-                    </div>
-                    <div class="industry-card">
-                        <i class="fas fa-shopping-cart"></i>
-                        <h4>E-Commerce</h4>
-                    </div>
-                    <div class="industry-card">
-                        <i class="fas fa-graduation-cap"></i>
-                        <h4>School & Education</h4>
-                    </div>
-                    <div class="industry-card">
-                        <i class="fas fa-plane-departure"></i>
-                        <h4>Travel</h4>
-                    </div>
-                    <div class="industry-card">
-                        <i class="fas fa-file-medical"></i>
-                        <h4>Health Care</h4>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Blog Section -->
-        <section class="blog">
-            <div class="container">
-                <div class="results-title animate">
-                    <h4 class="gold-span" style="text-transform: uppercase; letter-spacing: 2px;">Our Blog</h4>
-                    <h2>Latest Insights & News</h2>
-                </div>
-                <div class="blog-grid">
-                    <div class="blog-card animate">
-                        <div class="blog-img">
-                            <img src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?auto=format&fit=crop&q=80&w=800" alt="Blog 1">
-                        </div>
-                        <div class="blog-info">
-                            <span class="blog-date">March 15, 2026</span>
-                            <h3>The Future of B2B Logistics and Global Trade</h3>
-                            <a href="blog.html" class="learn-more">Read More <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="blog-card animate">
-                        <div class="blog-img">
-                            <img src="https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&q=80&w=800" alt="Blog 2">
-                        </div>
-                        <div class="blog-info">
-                            <span class="blog-date">February 28, 2026</span>
-                            <h3>Strategic Digital Marketing for International Markets</h3>
-                            <a href="blog.html" class="learn-more">Read More <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                    <div class="blog-card animate">
-                        <div class="blog-img">
-                            <img src="https://images.unsplash.com/photo-1521791136064-7986c2959d43?auto=format&fit=crop&q=80&w=800" alt="Blog 3">
-                        </div>
-                        <div class="blog-info">
-                            <span class="blog-date">February 10, 2026</span>
-                            <h3>Navigating Customs Compliance in Emerging Economies</h3>
-                            <a href="blog.html" class="learn-more">Read More <i class="fas fa-arrow-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section class="contact" id="contact">
-            <div class="container">
-                <div class="contact-grid">
-                    <div class="contact-info animate">
-                        <h4 class="gold-span" style="text-transform: uppercase; letter-spacing: 2px;">Contact Us</h4>
-                        <h2>Let's Start Your <br> Global Journey</h2>
-                        <p style="color: var(--text-muted); margin-bottom: 40px;">Ready to expand your business? Our experts are here to help you navigate the complexities of global trade.</p>
-                        
-                        <div class="info-item">
-                            <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
-                            <div>
-                                <h4>Location</h4>
-                                <p style="color: var(--text-muted);">123 Trade Center, New York, NY</p>
+    <!-- Why Choose Us -->
+    <section class="py-5 bg-section">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6 reveal">
+                    <span class="section-subtitle">Why Grow One Global Trade</span>
+                    <h2 class="section-title">A Professional Approach to Digital Growth</h2>
+                    <p class="text-muted mb-4">
+                        At Grow One Global Trade, we understand that every business is unique. We do not use cookie-cutter strategies. Instead, we analyze your market, study your competitors, and deploy customized campaigns that guarantee measurable success.
+                    </p>
+                    <div class="row g-4 mt-2">
+                        <div class="col-sm-6">
+                            <div class="d-flex gap-3">
+                                <div class="text-primary h5"><i class="fas fa-chart-pie"></i></div>
+                                <div>
+                                    <h5 class="fw-bold fs-6">Data-Driven Decisions</h5>
+                                    <p class="text-muted small">Every strategy is backed by deep analytics and consumer behavior metrics.</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="info-item">
-                            <div class="info-icon"><i class="fas fa-phone"></i></div>
-                            <div>
-                                <h4>Phone</h4>
-                                <p style="color: var(--text-muted);">+1 (555) 123-4567</p>
+                        <div class="col-sm-6">
+                            <div class="d-flex gap-3">
+                                <div class="text-primary h5"><i class="fas fa-users"></i></div>
+                                <div>
+                                    <h5 class="fw-bold fs-6">Dedicated Account Managers</h5>
+                                    <p class="text-muted small">Transparent communication with a single point of contact for your project.</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="info-item">
-                            <div class="info-icon"><i class="fas fa-envelope"></i></div>
-                            <div>
-                                <h4>Email</h4>
-                                <p style="color: var(--text-muted);">info@growoneglobal.com</p>
+                        <div class="col-sm-6">
+                            <div class="d-flex gap-3">
+                                <div class="text-primary h5"><i class="fas fa-shield-alt"></i></div>
+                                <div>
+                                    <h5 class="fw-bold fs-6">White-Hat Techniques</h5>
+                                    <p class="text-muted small">Ethical practices that protect your brand and ensure long-term stability.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex gap-3">
+                                <div class="text-primary h5"><i class="fas fa-globe"></i></div>
+                                <div>
+                                    <h5 class="fw-bold fs-6">Global Perspective</h5>
+                                    <p class="text-muted small">Expertise in expanding local businesses into international markets.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="contact-form animate">
-                        <form id="homeContactForm">
-                            <div class="form-group">
-                                <input type="text" class="form-input" placeholder="Your Name" required>
-                                <input type="email" class="form-input" placeholder="Your Email" required>
-                            </div>
-                            <input type="text" class="form-input" style="margin-bottom: 20px;" placeholder="Subject">
-                            <textarea class="form-textarea" placeholder="Your Message" required></textarea>
-                            <button type="submit" class="btn btn-gold" style="width: 100%;">Send Message <i class="fas fa-paper-plane"></i></button>
-                        </form>
+                </div>
+                <div class="col-lg-6 reveal">
+                    <div class="glass p-2 bg-white">
+                        <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&q=80&w=800" alt="Professional Office" class="img-fluid rounded">
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
+
+    <!-- Our Process -->
+    <section class="py-5 bg-white">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-subtitle">Our Methodology</span>
+                <h2 class="section-title">How We Deliver Results</h2>
+            </div>
+            <div class="row g-4 text-center">
+                <div class="col-md-3 reveal">
+                    <div class="p-4 border rounded bg-section h-100">
+                        <div class="bg-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3 shadow-sm" style="width: 60px; height: 60px;">
+                            <i class="fas fa-search text-primary fs-4"></i>
+                        </div>
+                        <h5 class="fw-bold">1. Discovery</h5>
+                        <p class="text-muted small">We audit your current digital footprint and define your business objectives.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 reveal">
+                    <div class="p-4 border rounded bg-section h-100">
+                        <div class="bg-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3 shadow-sm" style="width: 60px; height: 60px;">
+                            <i class="fas fa-pencil-ruler text-primary fs-4"></i>
+                        </div>
+                        <h5 class="fw-bold">2. Strategy</h5>
+                        <p class="text-muted small">Developing a comprehensive roadmap tailored to your specific market.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 reveal">
+                    <div class="p-4 border rounded bg-section h-100">
+                        <div class="bg-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3 shadow-sm" style="width: 60px; height: 60px;">
+                            <i class="fas fa-cogs text-primary fs-4"></i>
+                        </div>
+                        <h5 class="fw-bold">3. Execution</h5>
+                        <p class="text-muted small">Deploying campaigns, designing assets, and implementing technical SEO.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 reveal">
+                    <div class="p-4 border rounded bg-section h-100">
+                        <div class="bg-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3 shadow-sm" style="width: 60px; height: 60px;">
+                            <i class="fas fa-chart-line text-primary fs-4"></i>
+                        </div>
+                        <h5 class="fw-bold">4. Optimization</h5>
+                        <p class="text-muted small">Continuous monitoring, A/B testing, and scaling of successful strategies.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5 bg-section">
+        <div class="container">
+            <div class="glass p-5 text-center bg-white reveal">
+                <h2 class="section-title mb-3">Ready to Partner with Grow One Global Trade?</h2>
+                <p class="text-muted mb-4 mx-auto" style="max-width: 600px;">
+                    Schedule a consultation with our digital strategists to discuss how we can elevate your brand's online presence.
+                </p>
+                <a href="contact.html" class="btn btn-premium btn-primary-gradient px-5">Contact Us Today</a>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
-    <footer class="main-footer">
+    <footer>
         <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <div class="footer-logo">
-                        <img src="images/logo.png" alt="GrowOne Logo">
-                    </div>
-                    <p style="color: var(--text-muted); margin-bottom: 20px;">GrowOne Global Trade is your trusted partner for international B2B growth and digital excellence.</p>
-                    <div class="social-links" style="display: flex; gap: 15px;">
-                        <a href="#" style="color: var(--primary-gold);"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" style="color: var(--primary-gold);"><i class="fab fa-twitter"></i></a>
-                        <a href="#" style="color: var(--primary-gold);"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" style="color: var(--primary-gold);"><i class="fab fa-instagram"></i></a>
-                    </div>
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <a href="index.html" class="footer-logo">Grow One Global Trade</a>
+                    <p class="text-muted small mb-4">A professional digital marketing and web development agency committed to global excellence and verifiable ROI.</p>
                 </div>
-                <div class="footer-col">
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
+                <div class="col-lg-2 col-6">
+                    <h5 class="fw-bold mb-4 text-white">Company</h5>
+                    <a href="about.html" class="footer-link">About Us</a>
+                    <a href="services.html" class="footer-link">Our Services</a>
+                    <a href="contact.html" class="footer-link">Contact</a>
                 </div>
-                <div class="footer-col">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="digital-marketing.html">Digital Marketing</a></li>
-                        <li><a href="b2b-solutions.html">B2B Solutions</a></li>
-                        <li><a href="#">Lead Generation</a></li>
-                        <li><a href="#">Trade Compliance</a></li>
-                    </ul>
+                <div class="col-lg-3 col-6">
+                    <h5 class="fw-bold mb-4 text-white">Services</h5>
+                    <a href="service-digital-marketing.html" class="footer-link">Digital Marketing</a>
+                    <a href="service-seo.html" class="footer-link">Search Engine Optimization</a>
+                    <a href="service-web-development.html" class="footer-link">Web Development</a>
                 </div>
-                <div class="footer-col">
-                    <h4>Newsletter</h4>
-                    <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 20px;">Subscribe to get the latest insights and trade news.</p>
-                    <div style="display: flex;">
-                        <input type="email" placeholder="Email" style="padding: 10px; background: #050A18; border: 1px solid rgba(255,255,255,0.1); color: #fff; border-radius: 4px 0 0 4px; width: 100%;">
-                        <button class="btn btn-gold" style="padding: 10px 20px; border-radius: 0 4px 4px 0;"><i class="fas fa-paper-plane"></i></button>
-                    </div>
+                <div class="col-lg-3">
+                    <h5 class="fw-bold mb-4 text-white">Contact</h5>
+                    <p class="text-muted small mb-2"><i class="fas fa-envelope me-2"></i> info@growoneglobal.com</p>
+                    <p class="text-muted small"><i class="fas fa-phone me-2"></i> +1 (555) 123-4567</p>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 GrowOne Global Trade. All rights reserved.</p>
+            <hr class="my-4 border-secondary opacity-25">
+            <div class="text-center text-muted small">
+                &copy; 2026 Grow One Global Trade. All rights reserved.
             </div>
         </div>
     </footer>
 
-    <div class="scroll-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
-        <i class="fas fa-arrow-up"></i>
-    </div>
-
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
